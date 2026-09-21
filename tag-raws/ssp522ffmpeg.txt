@@ -4,4 +4,4 @@
 ffmpeg -loglevel quiet -hide_banner -i $FILE_1 {args} ./output/$(basename $FILE_1) 
 } 
 SSP522FFmpeg done.
--# Took {math:fix(({unix}-{get:unix})/1000,3)} seconds.
+-# Took {math:fix(({unix}-{get:unix})/1000,3)} seconds.}
